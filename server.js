@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8000;
 // Cors config
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://idea-drop-ui-pied.vercel.app/",
+  "https://idea-drop-ui-pied.vercel.app",
 ];
 
 // Middleware
