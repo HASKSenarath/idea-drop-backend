@@ -13,7 +13,10 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // Cors config
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://idea-drop-ui-pied.vercel.app/",
+];
 
 // Middleware
 app.use(cors({ origin: allowedOrigins, credentials: true }));
